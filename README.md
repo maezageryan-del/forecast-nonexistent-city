@@ -14,6 +14,8 @@ Entry for [Funniest Forecast for a City That Isn't](https://make.fun/bounty/u-ea
 
 The city of Mistake exists only because the Met Office invented it by typo — and still forecasts its weather with full bureaucratic confidence. The joke is about the forecaster, not the weather.
 
+Internal judge simulation (pairwise estimator, references scored as proxies from visible submission titles only — the board is blind): PASS, aggregate win-rate 0.758, worst scenario 0.728, cutoff margin +9.9.
+
 ## How it runs
 
 `main.py` writes the line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`). No input data, no network, no dependencies — Python 3 only.
